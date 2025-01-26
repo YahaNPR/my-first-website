@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 const button = document.createElement('button');
 button.textContent = 'Показать дату';
-button.className = 'date-botton';
+button.className = 'date-button';
 
 function showDate() {
     const currentDate = new Date();
